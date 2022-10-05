@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:wght@600&display=swap');
+body{
+    /* background-color: #a59ef0;
+     */
+     width: 100%;
+     height: 100%;
+     font-family: 'Finlandica', sans-serif;
+     overflow:hidden;
+     /* background-color: #75f48c; */
+    background-color:#a59ef0;
+
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    /* background-color:#a59ef0; */
+     background-color: #75f48c;
+
+    
+}
+.navbar-brand{
+    font-size: larger;
+    text-decoration: underline;
+}
+.nav-link{
+    /* color: black; */
+    font-weight: 500;
+}
+.nav-link.active{
+    color: red;
+}
+.heading{
+    font-size: 2.8rem;
+    font-weight: 600;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-box{
+    /* border:  2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.outline-box{
+    border: 4px solid #207868;
+    
+    border-style: dashed;
+    width: 50vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+}
+.text-container{
+    /* border: 2px solid brown; */
+    width: 100%;
+}
+.logos{
+    width: 220px;
+    display: flex;
+    height: 170px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.logos img{
+    width: 120px;
+    height: 120px;
+}
+
+.logos img:hover{
+    width: 160px;
+    height: 160px;
+    /* background-color: #a59ef0;   */
+}
+.logo-text{
+    font-size: large;
+    font-weight: 600;
+}
+footer{
+    /* background-color: #a59ef0; */
+    background-color: #75f48c;
+
+}
+.fa-brands{
+    font-size: x-large;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;   /* Height of the footer */
+    /* background: #6cf; */
+ }
+
+@media screen and (max-width: 800px) {
+    body {
+      /* background-color: lightgreen; */
+      overflow: scroll;
+    }
+  .outline-box{
+    width: 100%;
+    height: 100%;
+
+    }
+    .logos{
+        width: 220px;
+        display: flex;
+        height: 230px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .logos img{
+        width: 160px;
+        height: 160px;
+    }
+    
+    .logos img:hover{
+        width: 180px;
+        height: 180px;
+        /* background-color: #a59ef0;   */
+    }
+    footer {
+        position:unset;
+        bottom: 0;
+        width: 100%;
+        height: 60px;   /* Height of the footer */
+        /* background: #6cf; */
+     }
+}
